@@ -41,11 +41,6 @@ O **Selection Sort** (Ordenação por Seleção) é um algoritmo de ordenação 
 3. Repete o processo para o restante do array (excluindo as posições já ordenadas)
 4. Continua até que todo o array esteja ordenado
 
-### Complexidade do Algoritmo
-
-- **Tempo:** O(n²) - adequado para conjuntos pequenos de dados
-- **Espaço:** O(1) - ordenação in-place, não requer memória adicional
-
 ### Exemplo de Execução
 
 **Antes da ordenação:**
@@ -57,53 +52,6 @@ O **Selection Sort** (Ordenação por Seleção) é um algoritmo de ordenação 
 ```
 [3.2, 4.0, 7.5, 8.5, 9.1]
 ```
-
----
-
-## Como Executar o Programa
-
-1. Compile todos os arquivos Java:
-   ```bash
-   javac App.java GerenciadorNotas.java Nota.java
-   ```
-
-2. Execute a aplicação principal:
-   ```bash
-   java App
-   ```
-
-3. Siga as instruções do menu interativo no terminal
-
----
-
-## Validações Implementadas
-
-O sistema inclui validações para garantir a integridade dos dados:
-
--  Quantidade de notas deve ser maior que zero
--  Notas devem estar no intervalo de 0 a 10
--  Entrada de dados numéricos validada (evita erros de formato)
--  Fluxo de operações controlado (não é possível ordenar antes de inserir notas)
-
----
-
-## Tecnologias Utilizadas
-
-- **Linguagem:** Java
-- **Estrutura de Dados:** Array estático
-- **Algoritmo de Ordenação:** Selection Sort
-- **Interface:** Console/Terminal
-
----
-
-## Conceitos Aplicados
-
-- Estruturas de Dados (Arrays)
-- Algoritmos de Ordenação
-- Programação Orientada a Objetos (POO)
-- Validação de entrada de dados
-- Manipulação de arrays em Java
-- Formatação de números com `String.format()`
 
 ---
 
